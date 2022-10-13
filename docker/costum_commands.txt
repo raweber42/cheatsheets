@@ -1,0 +1,3 @@
+docker rm -f $(docker ps -aq) -> removes all containers (even running ones!)
+
+docker run --name nginx -d -p 80:80 nginx -> runs container with given name
